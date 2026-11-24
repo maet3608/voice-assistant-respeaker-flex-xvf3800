@@ -1,0 +1,18 @@
+# Build output
+build/
+*.bin
+*.elf
+*.map
+
+# State files written next to the sketches by arduino-cli
+.arduino-last-fqbn
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# credentials.h is tracked on purpose: it holds placeholders only.
+# Never commit a real SSID, password or API key.
+
